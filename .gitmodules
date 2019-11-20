@@ -1,0 +1,24 @@
+[submodule "mv-pagination"]
+	path = mv-pagination
+	url = https://github.com/manaty/mv-pagination.git
+[submodule "mv-checkbox"]
+	path = mv-checkbox
+	url = https://github.com/manaty/mv-checkbox.git
+[submodule "mv-button"]
+	path = mv-button
+	url = https://github.com/manaty/mv-button.git
+[submodule "mv-table"]
+	path = mv-table
+	url = https://github.com/manaty/mv-table.git
+[submodule "mv-menu"]
+	path = mv-menu
+	url = https://github.com/manaty/mv-menu.git
+[submodule "mv-tab"]
+	path = mv-tab
+	url = https://github.com/manaty/mv-tab.git
+[submodule "mv-dependencies"]
+	path = mv-dependencies
+	url = https://github.com/manaty/mv-dependencies.git
+[submodule "mv-toast"]
+	path = mv-toast
+	url = https://github.com/manaty/mv-toast.git
