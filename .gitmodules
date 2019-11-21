@@ -1,33 +1,33 @@
 [submodule "web_modules/mv-dependencies"]
 	path = web_modules/mv-dependencies
-	url = https://github.com/manaty/mv-dependencies.git
+	url = https://github.com/meveo-frontend/mv-dependencies.git
 [submodule "web_modules/mv-theme"]
 	path = web_modules/mv-theme
-	url = https://github.com/manaty/mv-theme.git
+	url = https://github.com/meveo-frontend/mv-theme.git
 [submodule "web_modules/mv-tab"]
 	path = web_modules/mv-tab
-	url = https://github.com/manaty/mv-tab.git
+	url = https://github.com/meveo-frontend/mv-tab.git
 [submodule "web_modules/mv-menu"]
 	path = web_modules/mv-menu
-	url = https://github.com/manaty/mv-menu.git
+	url = https://github.com/meveo-frontend/mv-menu.git
 [submodule "web_modules/mv-button"]
 	path = web_modules/mv-button
-	url = https://github.com/manaty/mv-button.git
+	url = https://github.com/meveo-frontend/mv-button.git
 [submodule "web_modules/mv-checkbox"]
 	path = web_modules/mv-checkbox
-	url = https://github.com/manaty/mv-checkbox.git
+	url = https://github.com/meveo-frontend/mv-checkbox.git
 [submodule "web_modules/mv-pagination"]
 	path = web_modules/mv-pagination
-	url = https://github.com/manaty/mv-pagination.git
+	url = https://github.com/meveo-frontend/mv-pagination.git
 [submodule "web_modules/mv-toast"]
 	path = web_modules/mv-toast
-	url = https://github.com/manaty/mv-toast.git
+	url = https://github.com/meveo-frontend/mv-toast.git
 [submodule "web_modules/mv-table"]
 	path = web_modules/mv-table
-	url = https://github.com/manaty/mv-table.git
+	url = https://github.com/meveo-frontend/mv-table.git
 [submodule "web_modules/mv-menupanel"]
 	path = web_modules/mv-menupanel
-	url = https://github.com/manaty/mv-menupanel.git
+	url = https://github.com/meveo-frontend/mv-menupanel.git
 [submodule "web_modules/mv-container"]
 	path = web_modules/mv-container
-	url = https://github.com/manaty/mv-container.git
+	url = https://github.com/meveo-frontend/mv-container.git
