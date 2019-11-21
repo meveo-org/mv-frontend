@@ -2,7 +2,7 @@
 	path = web_modules/mv-pagination
 	url = https://github.com/manaty/mv-pagination.git
 [submodule "mv-checkbox"]
-	path = mv-checkbox
+	path = web_modules/mv-checkbox
 	url = https://github.com/manaty/mv-checkbox.git
 [submodule "mv-button"]
 	path = web_modules/mv-button
