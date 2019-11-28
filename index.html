@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Meveo Frontend Kitchen Sink Demo</title>
+  <link rel="icon" type="image/png" href="https://manaty.net/images/favicon.png">
+  <link rel="stylesheet" href="./web_modules/mv-theme/css/meveo-theme.css" />
+  <style>
+    @font-face {
+      font-family: 'Linearicons-Free';
+      src: url('./web_modules/mv-linear-icon/fonts/Linearicons-Free.eot?w118d');
+      src: url('./web_modules/mv-linear-icon/fonts/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'),
+        url('./web_modules/mv-linear-icon/fonts/Linearicons-Free.woff2?w118d') format('woff2'),
+        url('./web_modules/mv-linear-icon/fonts/Linearicons-Free.woff?w118d') format('woff'),
+        url('./web_modules/mv-linear-icon/fonts/Linearicons-Free.ttf?w118d') format('truetype'),
+        url('./web_modules/mv-linear-icon/fonts/Linearicons-Free.svg?w118d#Linearicons-Free') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+  <script defer src="./web_modules/mv-dependencies/es-module-shims.js"></script>
+  <script type="importmap-shim">
+    {
+      "imports": {
+        "lit-element": "./web_modules/mv-dependencies/lit-element.js",
+        "mv-toast": "./web_modules/mv-toast/mv-toast.js",
+        "mv-linear-icon": "./web_modules/mv-linear-icon/mv-linear-icon.js"
+      }
+    }
+  </script>
+  <script type="module-shim" src="./demo.js"></script>
+</head>
+
+<body>
+  <mv-frontend-demo></mv-frontend-demo>
+</body>
+
+</html>
