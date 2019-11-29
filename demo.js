@@ -1,7 +1,14 @@
 import { LitElement, html, css } from "lit-element";
-import "mv-menu-panel";
-import "mv-toast-demo";
+import "mv-button-demo";
+import "mv-checkbox-demo";
+import "mv-container-demo";
 import "mv-linear-icon-demo";
+import "mv-menu-demo";
+import "mv-menu-panel";
+import "mv-pagination-demo";
+import "mv-tab-demo";
+import "mv-table-demo";
+import "mv-toast-demo";
 
 export class MvFrontendDemo extends LitElement {
   static get properties() {
@@ -36,8 +43,15 @@ export class MvFrontendDemo extends LitElement {
   constructor() {
     super();
     this.demos = {
-      "mv-toast": html`<mv-toast-demo></mv-toast-demo>`,
-      "mv-linear-icons": html`<mv-linear-icon-demo></mv-linear-icon-demo>`
+      "mv-button": html`<mv-button-demo></mv-button-demo>`,
+      "mv-checkbox": html`<mv-checkbox-demo></mv-checkbox-demo>`,
+      "mv-container": html`<mv-container-demo></mv-container-demo>`,
+      "mv-linear-icon": html`<mv-linear-icon-demo></mv-linear-icon-demo>`,
+      "mv-menu": html`<mv-menu-demo></mv-menu-demo>`,
+      "mv-pagination": html`<mv-pagination-demo></mv-pagination-demo>`,
+      "mv-tab": html`<mv-tab-demo></mv-tab-demo>`,
+      "mv-table": html`<mv-table-demo></mv-table-demo>`,
+      "mv-toast": html`<mv-toast-demo></mv-toast-demo>`
     };
   }
 
