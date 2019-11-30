@@ -31,6 +31,9 @@
 [submodule "web_modules/mv-menu-panel"]
 	path = web_modules/mv-menu-panel
 	url = https://github.com/meveo-frontend/mv-menu-panel.git
-[submodule "web_modules/mv-linear-icon"]
-	path = web_modules/mv-linear-icon
-	url = https://github.com/meveo-frontend/mv-linear-icon.git
+[submodule "web_modules/mv-font-awesome"]
+	path = web_modules/mv-font-awesome
+	url = https://github.com/meveo-frontend/mv-font-awesome.git
+[submodule "web_modules/mv-linear-icons"]
+	path = web_modules/mv-linear-icons
+	url = https://github.com/meveo-frontend/mv-linear-icons.git
