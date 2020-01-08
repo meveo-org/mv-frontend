@@ -10,6 +10,9 @@ import "mv-pagination-demo";
 import "mv-tab-demo";
 import "mv-table-demo";
 import "mv-toast-demo";
+import "mv-main-demo";
+import "mv-header-demo";
+import "mv-footer-demo";
 
 export class MvFrontendDemo extends LitElement {
   static get properties() {
@@ -23,20 +26,13 @@ export class MvFrontendDemo extends LitElement {
       :host {
         font-family: var(--font-family, Arial);
         font-size: var(--font-size-m, 10pt);
-      }
-
-      .main-content {
-        margin-left: 350px;
+        --mv-header-height: 66px;
+        --mv-footer-height: 40px;
+        --mv-menu-panel-width: 300px;
       }
 
       small {
         font-size: 12px;
-      }
-
-      mv-menu-panel[label] {
-        display: block;
-        width: 100%;
-        cursor: pointer;
       }
     `;
   }
@@ -53,46 +49,57 @@ export class MvFrontendDemo extends LitElement {
       "mv-pagination": html`<mv-pagination-demo></mv-pagination-demo>`,
       "mv-tab": html`<mv-tab-demo></mv-tab-demo>`,
       "mv-table": html`<mv-table-demo></mv-table-demo>`,
-      "mv-toast": html`<mv-toast-demo></mv-toast-demo>`
+      "mv-toast": html`<mv-toast-demo></mv-toast-demo>`,
+      "mv-main": html`<contained-main-demo></contained-main-demo>`,
+      "mv-header": html`<contained-header-demo></contained-header-demo>`,
+      "mv-footer": html`<contained-footer-demo></contained-footer-demo>`
     };
   }
 
   render() {
     return html`
-    <mv-menu-panel menu showLabel @select-header="${() => {
-      this.selectedDemo = null;
-    }}">      
-      <mv-menu-panel label>Menu <small>(using mv-menu-panel)</small></mv-menu-panel>
-      ${Object.keys(this.demos).map(
-        key => html`
-        <mv-menu-panel
-          item
-          .value="${key}"
-          .selected="${this.selectedDemo === key}"
-          @select-item="${this.handleMenuSelect}"
-        >${key}</mv-menu-panel>
-      `
-      )}
-      <mv-menu-panel group>
-        <mv-menu-panel label>Multi-level menu</mv-menu-panel>
-        <mv-menu-panel item disabled>1.1 <small>(disabled)</small></mv-menu-panel>
-        <mv-menu-panel item selected>1.2 <small>(selected)</small></mv-menu-panel>
+    <mv-main>
+      <mv-header slot="header">
+        <mv-header item><h3>Meveo Frontend Kitchen Sink Demo</h3></mv-header>
+      </mv-header>
+      <mv-menu-panel
+        slot="menu"
+        menu
+        showLabel
+        @select-header="${() => {
+          this.selectedDemo = null;
+        }}"
+      >      
+        <mv-menu-panel label>Menu <small>(using mv-menu-panel)</small></mv-menu-panel>
+        ${Object.keys(this.demos).map(
+          key => html`
+          <mv-menu-panel
+            item
+            .value="${key}"
+            .selected="${this.selectedDemo === key}"
+            @select-item="${this.handleMenuSelect}"
+          >${key}</mv-menu-panel>
+        `
+        )}
         <mv-menu-panel group>
-          <mv-menu-panel label>1.3</mv-menu-panel>
-          <mv-menu-panel item>1.3.1</mv-menu-panel>
-          <mv-menu-panel item>1.3.2</mv-menu-panel>
-          <mv-menu-panel item>1.3.3</mv-menu-panel>
-          <mv-menu-panel item>1.3.4</mv-menu-panel>
+          <mv-menu-panel label>Multi-level menu</mv-menu-panel>
+          <mv-menu-panel item disabled>1.1 <small>(disabled)</small></mv-menu-panel>
+          <mv-menu-panel item selected>1.2 <small>(selected)</small></mv-menu-panel>
           <mv-menu-panel group>
-            <mv-menu-panel label>1.3.5</mv-menu-panel>
-            <mv-menu-panel item>1.3.5.1</mv-menu-panel>
-            <mv-menu-panel item>1.3.5.2</mv-menu-panel>
+            <mv-menu-panel label>1.3</mv-menu-panel>
+            <mv-menu-panel item>1.3.1</mv-menu-panel>
+            <mv-menu-panel item>1.3.2</mv-menu-panel>
+            <mv-menu-panel item>1.3.3</mv-menu-panel>
+            <mv-menu-panel item>1.3.4</mv-menu-panel>
+            <mv-menu-panel group>
+              <mv-menu-panel label>1.3.5</mv-menu-panel>
+              <mv-menu-panel item>1.3.5.1</mv-menu-panel>
+              <mv-menu-panel item>1.3.5.2</mv-menu-panel>
+            </mv-menu-panel>
           </mv-menu-panel>
         </mv-menu-panel>
       </mv-menu-panel>
-    </mv-menu-panel>
-    <div class="main-content">
-      <h1>Meveo Frontend Kitchen Sink Demo</h1>
+      
       ${Object.keys(this.demos).map(
         key => (key === this.selectedDemo ? this.demos[key] : html``)
       )}
@@ -103,7 +110,11 @@ export class MvFrontendDemo extends LitElement {
               Select a component from the menu to see it in action.
             </div>`
         : html``}
-    </div>    
+      
+      <mv-footer slot="footer">
+        <mv-footer item>Meveo-Frontend</mv-footer>
+      </mv-footer>
+    </mv-main>
     `;
   }
 

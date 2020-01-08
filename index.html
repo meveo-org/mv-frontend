@@ -10,6 +10,37 @@
   <title>Meveo Frontend Kitchen Sink Demo</title>
   <link rel="icon" type="image/png" href="https://manaty.net/images/favicon.png">
   <link rel="stylesheet" href="./web_modules/mv-theme/css/meveo-theme.css" />
+  <script defer src="./web_modules/mv-dependencies/es-module-shims.js"></script>
+  <script type="importmap-shim">
+    {
+      "imports": {
+        "lit-element": "./web_modules/mv-dependencies/lit-element.js",
+        "mv-button": "./web_modules/mv-button/mv-button.js",
+        "mv-button-demo": "./web_modules/mv-button/demo.js",
+        "mv-checkbox": "./web_modules/mv-checkbox/mv-checkbox.js",
+        "mv-checkbox-demo": "./web_modules/mv-checkbox/demo.js",
+        "mv-container": "./web_modules/mv-container/mv-container.js",
+        "mv-container-demo": "./web_modules/mv-container/demo.js",
+        "mv-font-awesome": "./web_modules/mv-font-awesome/mv-font-awesome.js",
+        "mv-font-awesome-demo": "./web_modules/mv-font-awesome/demo.js",
+        "mv-linear-icons-demo": "./web_modules/mv-linear-icons/demo.js",
+        "mv-menu-demo": "./web_modules/mv-menu/demo.js",
+        "mv-menu-panel": "./web_modules/mv-menu-panel/mv-menu-panel.js",
+        "mv-pagination": "./web_modules/mv-pagination/mv-pagination.js",
+        "mv-pagination-demo": "./web_modules/mv-pagination/demo.js",
+        "mv-tab-demo": "./web_modules/mv-tab/demo.js",
+        "mv-table-demo": "./web_modules/mv-table/demo.js",
+        "mv-toast": "./web_modules/mv-toast/mv-toast.js",
+        "mv-toast-demo": "./web_modules/mv-toast/demo.js",
+        "mv-main": "./web_modules/mv-main/mv-main.js",
+        "mv-main-demo": "./web_modules/mv-main/contained-demo.js",
+        "mv-header": "./web_modules/mv-header/mv-header.js",
+        "mv-header-demo": "./web_modules/mv-header/contained-demo.js",
+        "mv-footer": "./web_modules/mv-footer/mv-footer.js",
+        "mv-footer-demo": "./web_modules/mv-footer/contained-demo.js"
+      }
+    }
+  </script>
   <style>
     @font-face {
       font-family: 'Linearicons-Free';
@@ -64,30 +95,31 @@
         url("./web_modules/mv-font-awesome/fonts/fa-solid-900.ttf") format("truetype"),
         url("./web_modules/mv-font-awesome/fonts/fa-solid-900.svg#fontawesome") format("svg");
     }
-  </style>
-  <script defer src="./web_modules/mv-dependencies/es-module-shims.js"></script>
-  <script type="importmap-shim">
-    {
-      "imports": {
-        "lit-element": "./web_modules/mv-dependencies/lit-element.js",
-        "mv-button": "./web_modules/mv-button/mv-button.js",
-        "mv-button-demo": "./web_modules/mv-button/demo.js",
-        "mv-checkbox": "./web_modules/mv-checkbox/mv-checkbox.js",
-        "mv-checkbox-demo": "./web_modules/mv-checkbox/demo.js",
-        "mv-container-demo": "./web_modules/mv-container/demo.js",
-        "mv-font-awesome-demo": "./web_modules/mv-font-awesome/demo.js",
-        "mv-linear-icons-demo": "./web_modules/mv-linear-icons/demo.js",
-        "mv-menu-demo": "./web_modules/mv-menu/demo.js",
-        "mv-menu-panel": "./web_modules/mv-menu-panel/mv-menu-panel.js",
-        "mv-pagination": "./web_modules/mv-pagination/mv-pagination.js",
-        "mv-pagination-demo": "./web_modules/mv-pagination/demo.js",
-        "mv-tab-demo": "./web_modules/mv-tab/demo.js",
-        "mv-table-demo": "./web_modules/mv-table/demo.js",
-        "mv-toast": "./web_modules/mv-toast/mv-toast.js",
-        "mv-toast-demo": "./web_modules/mv-toast/demo.js"
-      }
+
+    *,
+    *:before,
+    *:after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-  </script>
+
+    *:before,
+    *:after {
+      content: '';
+      display: block;
+      position: absolute;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
   <script type="module-shim" src="./demo.js"></script>
 </head>
 

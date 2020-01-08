@@ -37,3 +37,12 @@
 [submodule "web_modules/mv-linear-icons"]
 	path = web_modules/mv-linear-icons
 	url = https://github.com/meveo-frontend/mv-linear-icons.git
+[submodule "web_modules/mv-header"]
+	path = web_modules/mv-header
+	url = https://github.com/meveo-frontend/mv-header
+[submodule "web_modules/mv-footer"]
+	path = web_modules/mv-footer
+	url = https://github.com/meveo-frontend/mv-footer
+[submodule "web_modules/mv-main"]
+	path = web_modules/mv-main
+	url = https://github.com/meveo-frontend/mv-main.git
