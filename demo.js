@@ -13,6 +13,8 @@ import "mv-toast-demo";
 import "mv-main-demo";
 import "mv-header-demo";
 import "mv-footer-demo";
+import "mv-click-away-demo";
+import "mv-select-demo";
 
 export class MvFrontendDemo extends LitElement {
   static get properties() {
@@ -52,7 +54,9 @@ export class MvFrontendDemo extends LitElement {
       "mv-toast": html`<mv-toast-demo></mv-toast-demo>`,
       "mv-main": html`<contained-main-demo></contained-main-demo>`,
       "mv-header": html`<contained-header-demo></contained-header-demo>`,
-      "mv-footer": html`<contained-footer-demo></contained-footer-demo>`
+      "mv-footer": html`<contained-footer-demo></contained-footer-demo>`,
+      "mv-click-away": html`<mv-click-away-demo></mv-click-away-demo>`,
+      "mv-select": html`<mv-select-demo></mv-select-demo>`
     };
   }
 

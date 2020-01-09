@@ -46,3 +46,9 @@
 [submodule "web_modules/mv-main"]
 	path = web_modules/mv-main
 	url = https://github.com/meveo-frontend/mv-main.git
+[submodule "web_modules/mv-click-away"]
+	path = web_modules/mv-click-away
+	url = https://github.com/meveo-frontend/mv-click-away.git
+[submodule "web_modules/mv-select"]
+	path = web_modules/mv-select
+	url = https://github.com/meveo-frontend/mv-select.git
