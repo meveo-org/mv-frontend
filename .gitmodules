@@ -1,54 +1,54 @@
 [submodule "web_modules/mv-dependencies"]
 	path = web_modules/mv-dependencies
-	url = https://github.com/meveo-frontend/mv-dependencies.git
+	url = https://github.com/meveo-org/mv-dependencies.git
 [submodule "web_modules/mv-theme"]
 	path = web_modules/mv-theme
-	url = https://github.com/meveo-frontend/mv-theme.git
+	url = https://github.com/meveo-org/mv-theme.git
 [submodule "web_modules/mv-tab"]
 	path = web_modules/mv-tab
-	url = https://github.com/meveo-frontend/mv-tab.git
+	url = https://github.com/meveo-org/mv-tab.git
 [submodule "web_modules/mv-menu"]
 	path = web_modules/mv-menu
-	url = https://github.com/meveo-frontend/mv-menu.git
+	url = https://github.com/meveo-org/mv-menu.git
 [submodule "web_modules/mv-button"]
 	path = web_modules/mv-button
-	url = https://github.com/meveo-frontend/mv-button.git
+	url = https://github.com/meveo-org/mv-button.git
 [submodule "web_modules/mv-checkbox"]
 	path = web_modules/mv-checkbox
-	url = https://github.com/meveo-frontend/mv-checkbox.git
+	url = https://github.com/meveo-org/mv-checkbox.git
 [submodule "web_modules/mv-pagination"]
 	path = web_modules/mv-pagination
-	url = https://github.com/meveo-frontend/mv-pagination.git
+	url = https://github.com/meveo-org/mv-pagination.git
 [submodule "web_modules/mv-toast"]
 	path = web_modules/mv-toast
-	url = https://github.com/meveo-frontend/mv-toast.git
+	url = https://github.com/meveo-org/mv-toast.git
 [submodule "web_modules/mv-table"]
 	path = web_modules/mv-table
-	url = https://github.com/meveo-frontend/mv-table.git
+	url = https://github.com/meveo-org/mv-table.git
 [submodule "web_modules/mv-container"]
 	path = web_modules/mv-container
-	url = https://github.com/meveo-frontend/mv-container.git
+	url = https://github.com/meveo-org/mv-container.git
 [submodule "web_modules/mv-menu-panel"]
 	path = web_modules/mv-menu-panel
-	url = https://github.com/meveo-frontend/mv-menu-panel.git
+	url = https://github.com/meveo-org/mv-menu-panel.git
 [submodule "web_modules/mv-font-awesome"]
 	path = web_modules/mv-font-awesome
-	url = https://github.com/meveo-frontend/mv-font-awesome.git
+	url = https://github.com/meveo-org/mv-font-awesome.git
 [submodule "web_modules/mv-linear-icons"]
 	path = web_modules/mv-linear-icons
-	url = https://github.com/meveo-frontend/mv-linear-icons.git
+	url = https://github.com/meveo-org/mv-linear-icons.git
 [submodule "web_modules/mv-header"]
 	path = web_modules/mv-header
-	url = https://github.com/meveo-frontend/mv-header
+	url = https://github.com/meveo-org/mv-header
 [submodule "web_modules/mv-footer"]
 	path = web_modules/mv-footer
-	url = https://github.com/meveo-frontend/mv-footer
+	url = https://github.com/meveo-org/mv-footer
 [submodule "web_modules/mv-main"]
 	path = web_modules/mv-main
-	url = https://github.com/meveo-frontend/mv-main.git
+	url = https://github.com/meveo-org/mv-main.git
 [submodule "web_modules/mv-click-away"]
 	path = web_modules/mv-click-away
-	url = https://github.com/meveo-frontend/mv-click-away.git
+	url = https://github.com/meveo-org/mv-click-away.git
 [submodule "web_modules/mv-select"]
 	path = web_modules/mv-select
-	url = https://github.com/meveo-frontend/mv-select.git
+	url = https://github.com/meveo-org/mv-select.git
