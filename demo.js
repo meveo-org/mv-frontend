@@ -15,6 +15,18 @@ import "mv-header-demo";
 import "mv-footer-demo";
 import "mv-click-away-demo";
 import "mv-select-demo";
+import "mv-breadcrumbs-demo";
+import "mv-calendar-demo";
+import "mv-dropdown-demo";
+import "mv-input-demo";
+import "mv-radio-demo";
+import "mv-slider-demo";
+import "mv-tooltip-demo";
+import "mv-tags-demo";
+import "mv-textarea-demo";
+import "mv-toggle-demo";
+import "mv-dialog-demo";
+import "mv-progressbar-demo";
 
 export class MvFrontendDemo extends LitElement {
   static get properties() {
@@ -36,6 +48,36 @@ export class MvFrontendDemo extends LitElement {
       small {
         font-size: 12px;
       }
+      
+      .items {
+        max-height: 600px;
+        overflow-y: auto;
+        
+        // fallback for firefox
+        scrollbar-color: #5A6473 #788394;
+        scrollbar-width: thin;
+      }
+      
+      .items:focus {
+        outline: transparent auto 0;
+      }
+    
+      .items::-webkit-scrollbar {
+        width: 14px;
+        background-color: #788394;
+        border-radius: 10px;
+      }
+    
+      .items::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #5A6473;
+      }
+      
+      .count {
+        color: #000000;
+        font-size: 30px;
+      }
     `;
   }
 
@@ -52,15 +94,29 @@ export class MvFrontendDemo extends LitElement {
       "mv-tab": html`<mv-tab-demo></mv-tab-demo>`,
       "mv-table": html`<mv-table-demo></mv-table-demo>`,
       "mv-toast": html`<mv-toast-demo></mv-toast-demo>`,
-      "mv-main": html`<contained-main-demo></contained-main-demo>`,
-      "mv-header": html`<contained-header-demo></contained-header-demo>`,
-      "mv-footer": html`<contained-footer-demo></contained-footer-demo>`,
+      "mv-main": html`<mv-main-demo></mv-main-demo>`,
+      "mv-header": html`<mv-header-demo></mv-header-demo>`,
+      "mv-footer": html`<mv-footer-demo></mv-footer-demo>`,
       "mv-click-away": html`<mv-click-away-demo></mv-click-away-demo>`,
-      "mv-select": html`<mv-select-demo></mv-select-demo>`
+      "mv-select": html`<mv-select-demo></mv-select-demo>`,
+      "mv-breadcrumbs": html`<mv-breadcrumbs-demo></mv-breadcrumbs-demo>`,
+      "mv-calendar": html`<mv-calendar-demo></mv-calendar-demo>`,
+      "mv-dropdown": html`<mv-dropdown-demo></mv-dropdown-demo>`,
+      "mv-input": html`<mv-input-demo></mv-input-demo>`,
+      "mv-radio": html`<mv-radio-demo></mv-radio-demo>`,
+      "mv-slider": html`<mv-slider-demo></mv-slider-demo>`,
+      "mv-tooltip": html`<mv-tooltip-demo></mv-tooltip-demo>`,
+      "mv-tags": html`<mv-tags-demo></mv-tags-demo>`,
+      "mv-textarea": html`<mv-textarea-demo></mv-textarea-demo>`,
+      "mv-toggle": html`<mv-toggle-demo></mv-toggle-demo>`,
+      "mv-dialog": html`<mv-dialog-demo></mv-dialog-demo>`,
+      "mv-progress-bar": html`<mv-progressbar-demo></mv-progressbar-demo>`
     };
   }
 
   render() {
+    const demos = Object.keys(this.demos);
+    const count = demos.length;
     return html`
     <mv-main>
       <mv-header slot="header">
@@ -74,17 +130,25 @@ export class MvFrontendDemo extends LitElement {
           this.selectedDemo = null;
         }}"
       >      
-        <mv-menu-panel label>Menu <small>(using mv-menu-panel)</small></mv-menu-panel>
-        ${Object.keys(this.demos).map(
-          key => html`
-          <mv-menu-panel
-            item
-            .value="${key}"
-            .selected="${this.selectedDemo === key}"
-            @select-item="${this.handleMenuSelect}"
-          >${key}</mv-menu-panel>
-        `
-        )}
+        <mv-menu-panel label>
+          Menu 
+          <small>
+            <span class="count">${count}</span>modules
+            <div>(using mv-menu-panel)</div>
+          </small>
+        </mv-menu-panel>
+        <div class="items">
+          ${Array.from(demos).sort().map(
+            key => html`
+            <mv-menu-panel
+              item
+              .value="${key}"
+              .selected="${this.selectedDemo === key}"
+              @select-item="${this.handleMenuSelect}"
+            >${key}</mv-menu-panel>
+          `
+          )}
+        </div>
         <mv-menu-panel group>
           <mv-menu-panel label>Multi-level menu</mv-menu-panel>
           <mv-menu-panel item disabled>1.1 <small>(disabled)</small></mv-menu-panel>
