@@ -12,4 +12,4 @@ To experiment with the MvFrontend component.
 
 3. Update the frontend demo component in demo.js file
 
-You can also check this [demo](https://front.meveo.org/mv-frontend/)
+You can also check this [demo](http://frontend.meveo.org/)
