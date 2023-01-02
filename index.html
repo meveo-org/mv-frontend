@@ -7,129 +7,130 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Meveo Frontend Kitchen Sink Demo</title>
+    
     <link
       rel="icon"
       type="image/png"
       href="https://manaty.net/images/favicon.png"
     />
-    <link rel="stylesheet" href="./web_modules/mv-theme/css/meveo-theme.css" />
-    <script src="./web_modules/mv-calendar/lib/moment.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/@meveo-org/mv-theme/css/meveo-theme.css" />
+    <script src="./node_modules/@meveo-org/mv-calendar/lib/moment.min.js"></script>
     <script
       defer
-      src="./web_modules/mv-dependencies/es-module-shims/es-module-shims.js"
+      src="./node_modules/@meveo-org/mv-dependencies/es-module-shims/es-module-shims.js"
     ></script>
     <script type="importmap-shim">
       {
         "imports": {
-          "ajv": "./web_modules/mv-dependencies/ajv/ajv.min.js",
-          "chartjs": "./web_modules/mv-chart/lib/chart.min.js",
-          "chartjs-plugin-datalabels": "./web_modules/mv-chart/lib/chartjs-plugin-datalabels.min.js",
-          "jsonata": "./web_modules/mv-dependencies/jsonata.min.js",
-          "lit-element": "./web_modules/mv-dependencies/lit-element.js",
-          "mv-element": "./web_modules/mv-modules/mv-element.js",
-          "mv-store": "./web_modules/mv-modules/mv-store.js",
+          "ajv": "./node_modules/@meveo-org/mv-dependencies/ajv/ajv.min.js",
+          "chartjs": "./node_modules/@meveo-org/mv-chart/lib/chart.min.js",
+          "chartjs-plugin-datalabels": "./node_modules/@meveo-org/mv-chart/lib/chartjs-plugin-datalabels.min.js",
+          "jsonata": "./node_modules/@meveo-org/mv-dependencies/jsonata.min.js",
+          "lit-element": "./node_modules/@meveo-org/mv-dependencies/lit-element.js",
+          "mv-element": "./node_modules/@meveo-org/mv-modules/mv-element.js",
+          "mv-store": "./node_modules/@meveo-org/mv-modules/mv-store.js",
 
-          "mv-breadcrumbs": "./web_modules/mv-breadcrumbs/mv-breadcrumbs.js",
-          "mv-breadcrumbs-demo": "./web_modules/mv-breadcrumbs/demo.js",
+          "mv-breadcrumbs": "./node_modules/@meveo-org/mv-breadcrumbs/mv-breadcrumbs.js",
+          "mv-breadcrumbs-demo": "./node_modules/@meveo-org/mv-breadcrumbs/demo.js",
 
-          "mv-button": "./web_modules/mv-button/mv-button.js",
-          "mv-button-demo": "./web_modules/mv-button/demo.js",
+          "mv-button": "./node_modules/@meveo-org/mv-button/mv-button.js",
+          "mv-button-demo": "./node_modules/@meveo-org/mv-button/demo.js",
 
-          "mv-calendar": "./web_modules/mv-calendar/mv-calendar.js",
-          "mv-calendar-demo": "./web_modules/mv-calendar/demo.js",
+          "mv-calendar": "./node_modules/@meveo-org/mv-calendar/mv-calendar.js",
+          "mv-calendar-demo": "./node_modules/@meveo-org/mv-calendar/demo.js",
 
-          "mv-chart": "./web_modules/mv-chart/mv-chart.js",
-          "mv-chart-demo": "./web_modules/mv-chart/demo.js",
+          "mv-chart": "./node_modules/@meveo-org/mv-chart/mv-chart.js",
+          "mv-chart-demo": "./node_modules/@meveo-org/mv-chart/demo.js",
 
-          "mv-checkbox": "./web_modules/mv-checkbox/mv-checkbox.js",
-          "mv-checkbox-demo": "./web_modules/mv-checkbox/demo.js",
+          "mv-checkbox": "./node_modules/@meveo-org/mv-checkbox/mv-checkbox.js",
+          "mv-checkbox-demo": "./node_modules/@meveo-org/mv-checkbox/demo.js",
 
-          "mv-click-away": "./web_modules/mv-click-away/mv-click-away.js",
-          "mv-click-away-demo": "./web_modules/mv-click-away/demo.js",
+          "mv-click-away": "./node_modules/@meveo-org/mv-click-away/mv-click-away.js",
+          "mv-click-away-demo": "./node_modules/@meveo-org/mv-click-away/demo.js",
 
-          "mv-container": "./web_modules/mv-container/mv-container.js",
-          "mv-container-demo": "./web_modules/mv-container/demo.js",
+          "mv-container": "./node_modules/@meveo-org/mv-container/mv-container.js",
+          "mv-container-demo": "./node_modules/@meveo-org/mv-container/demo.js",
 
-          "mv-dialog": "./web_modules/mv-dialog/mv-dialog.js",
-          "mv-dialog-demo": "./web_modules/mv-dialog/demo.js",
+          "mv-dialog": "./node_modules/@meveo-org/mv-dialog/mv-dialog.js",
+          "mv-dialog-demo": "./node_modules/@meveo-org/mv-dialog/demo.js",
 
-          "mv-dropdown": "./web_modules/mv-dropdown/mv-dropdown.js",
-          "mv-dropdown-demo": "./web_modules/mv-dropdown/demo.js",
+          "mv-dropdown": "./node_modules/@meveo-org/mv-dropdown/mv-dropdown.js",
+          "mv-dropdown-demo": "./node_modules/@meveo-org/mv-dropdown/demo.js",
 
-          "mv-font-awesome": "./web_modules/mv-font-awesome/mv-font-awesome.js",
-          "mv-font-awesome-demo": "./web_modules/mv-font-awesome/demo.js",
+          "mv-font-awesome": "./node_modules/@meveo-org/mv-font-awesome/mv-font-awesome.js",
+          "mv-font-awesome-demo": "./node_modules/@meveo-org/mv-font-awesome/demo.js",
 
-          "mv-footer": "./web_modules/mv-footer/mv-footer.js",
-          "mv-footer-demo": "./web_modules/mv-footer/demo.js",
+          "mv-footer": "./node_modules/@meveo-org/mv-footer/mv-footer.js",
+          "mv-footer-demo": "./node_modules/@meveo-org/mv-footer/demo.js",
 
-          "mv-form": "./web_modules/mv-form/mv-form.js",
-          "mv-form-demo": "./web_modules/mv-form/demo.js",
+          "mv-form": "./node_modules/@meveo-org/mv-form/mv-form.js",
+          "mv-form-demo": "./node_modules/@meveo-org/mv-form/demo.js",
 
-          "mv-header": "./web_modules/mv-header/mv-header.js",
-          "mv-header-demo": "./web_modules/mv-header/demo.js",
+          "mv-header": "./node_modules/@meveo-org/mv-header/mv-header.js",
+          "mv-header-demo": "./node_modules/@meveo-org/mv-header/demo.js",
 
-          "mv-input": "./web_modules/mv-input/mv-input.js",
-          "mv-input-demo": "./web_modules/mv-input/demo.js",
+          "mv-input": "./node_modules/@meveo-org/mv-input/mv-input.js",
+          "mv-input-demo": "./node_modules/@meveo-org/mv-input/demo.js",
 
-          "mv-linear-icons": "./web_modules/mv-linear-icons/mv-linear-icons.js",
-          "mv-linear-icons-demo": "./web_modules/mv-linear-icons/demo.js",
+          "mv-linear-icons": "./node_modules/@meveo-org/mv-linear-icons/mv-linear-icons.js",
+          "mv-linear-icons-demo": "./node_modules/@meveo-org/mv-linear-icons/demo.js",
 
-          "mv-listbox": "./web_modules/mv-listbox/mv-listbox.js",
-          "mv-listbox-demo": "./web_modules/mv-listbox/demo.js",
+          "mv-listbox": "./node_modules/@meveo-org/mv-listbox/mv-listbox.js",
+          "mv-listbox-demo": "./node_modules/@meveo-org/mv-listbox/demo.js",
 
-          "mv-main": "./web_modules/mv-main/mv-main.js",
-          "mv-main-demo": "./web_modules/mv-main/demo.js",
+          "mv-main": "./node_modules/@meveo-org/mv-main/mv-main.js",
+          "mv-main-demo": "./node_modules/@meveo-org/mv-main/demo.js",
 
-          "mv-maps": "./web_modules/mv-maps/mv-maps.js",
-          "mv-maps-demo": "./web_modules/mv-maps/demo.js",
+          "mv-maps": "./node_modules/@meveo-org/mv-maps/mv-maps.js",
+          "mv-maps-demo": "./node_modules/@meveo-org/mv-maps/demo.js",
 
-          "mv-menu": "./web_modules/mv-menu/mv-menu.js",
-          "mv-menu-demo": "./web_modules/mv-menu/demo.js",
+          "mv-menu": "./node_modules/@meveo-org/mv-menu/mv-menu.js",
+          "mv-menu-demo": "./node_modules/@meveo-org/mv-menu/demo.js",
 
-          "mv-menu-panel": "./web_modules/mv-menu-panel/mv-menu-panel.js",
-          "mv-menu-panel": "./web_modules/mv-menu-panel/mv-menu-panel.js",
+          "mv-menu-panel": "./node_modules/@meveo-org/mv-menu-panel/mv-menu-panel.js",
+          "mv-menu-panel": "./node_modules/@meveo-org/mv-menu-panel/mv-menu-panel.js",
 
-          "mv-pagination": "./web_modules/mv-pagination/mv-pagination.js",
-          "mv-pagination-demo": "./web_modules/mv-pagination/demo.js",
+          "mv-pagination": "./node_modules/@meveo-org/mv-pagination/mv-pagination.js",
+          "mv-pagination-demo": "./node_modules/@meveo-org/mv-pagination/demo.js",
 
-          "mv-progress-bar": "./web_modules/mv-progress-bar/mv-progress-bar.js",
-          "mv-progressbar-demo": "./web_modules/mv-progress-bar/demo.js",
+          "mv-progress-bar": "./node_modules/@meveo-org/mv-progress-bar/mv-progress-bar.js",
+          "mv-progressbar-demo": "./node_modules/@meveo-org/mv-progress-bar/demo.js",
 
-          "mv-radio": "./web_modules/mv-radio/mv-radio.js",
-          "mv-radio-demo": "./web_modules/mv-radio/demo.js",
+          "mv-radio": "./node_modules/@meveo-org/mv-radio/mv-radio.js",
+          "mv-radio-demo": "./node_modules/@meveo-org/mv-radio/demo.js",
 
-          "mv-select": "./web_modules/mv-select/mv-select.js",
-          "mv-select-demo": "./web_modules/mv-select/demo.js",
+          "mv-select": "./node_modules/@meveo-org/mv-select/mv-select.js",
+          "mv-select-demo": "./node_modules/@meveo-org/mv-select/demo.js",
 
-          "mv-slider": "./web_modules/mv-slider/mv-slider.js",
-          "mv-slider-demo": "./web_modules/mv-slider/demo.js",
+          "mv-slider": "./node_modules/@meveo-org/mv-slider/mv-slider.js",
+          "mv-slider-demo": "./node_modules/@meveo-org/mv-slider/demo.js",
 
-          "mv-spinner": "./web_modules/mv-spinner/mv-spinner.js",
-          "mv-spinner-demo": "./web_modules/mv-spinner/demo.js",
+          "mv-spinner": "./node_modules/@meveo-org/mv-spinner/mv-spinner.js",
+          "mv-spinner-demo": "./node_modules/@meveo-org/mv-spinner/demo.js",
 
-          "mv-tab": "./web_modules/mv-tab/mv-tab.js",
-          "mv-tab-demo": "./web_modules/mv-tab/demo.js",
+          "mv-tab": "./node_modules/@meveo-org/mv-tab/mv-tab.js",
+          "mv-tab-demo": "./node_modules/@meveo-org/mv-tab/demo.js",
 
-          "mv-table": "./web_modules/mv-table/mv-table.js",
-          "mv-table-demo": "./web_modules/mv-table/demo.js",
+          "mv-table": "./node_modules/@meveo-org/mv-table/mv-table.js",
+          "mv-table-demo": "./node_modules/@meveo-org/mv-table/demo.js",
 
-          "mv-toast": "./web_modules/mv-toast/mv-toast.js",
-          "mv-toast-demo": "./web_modules/mv-toast/demo.js",
+          "mv-toast": "./node_modules/@meveo-org/mv-toast/mv-toast.js",
+          "mv-toast-demo": "./node_modules/@meveo-org/mv-toast/demo.js",
 
-          "mv-tags": "./web_modules/mv-tags/mv-tags.js",
-          "mv-tags-demo": "./web_modules/mv-tags/demo.js",
+          "mv-tags": "./node_modules/@meveo-org/mv-tags/mv-tags.js",
+          "mv-tags-demo": "./node_modules/@meveo-org/mv-tags/demo.js",
 
-          "mv-textarea": "./web_modules/mv-textarea/mv-textarea.js",
-          "mv-textarea-demo": "./web_modules/mv-textarea/demo.js",
+          "mv-textarea": "./node_modules/@meveo-org/mv-textarea/mv-textarea.js",
+          "mv-textarea-demo": "./node_modules/@meveo-org/mv-textarea/demo.js",
 
-          "mv-toast": "./web_modules/mv-toast/mv-toast.js",
-          "mv-toast-demo": "./web_modules/mv-toast/demo.js",
+          "mv-toast": "./node_modules/@meveo-org/mv-toast/mv-toast.js",
+          "mv-toast-demo": "./node_modules/@meveo-org/mv-toast/demo.js",
 
-          "mv-toggle": "./web_modules/mv-toggle/mv-toggle.js",
-          "mv-toggle-demo": "./web_modules/mv-toggle/demo.js",
+          "mv-toggle": "./node_modules/@meveo-org/mv-toggle/mv-toggle.js",
+          "mv-toggle-demo": "./node_modules/@meveo-org/mv-toggle/demo.js",
 
-          "mv-tooltip": "./web_modules/mv-tooltip/mv-tooltip.js",
-          "mv-tooltip-demo": "./web_modules/mv-tooltip/demo.js"
+          "mv-tooltip": "./node_modules/@meveo-org/mv-tooltip/mv-tooltip.js",
+          "mv-tooltip-demo": "./node_modules/@meveo-org/mv-tooltip/demo.js"
 
         }
       }
@@ -137,16 +138,16 @@
     <style>
       @font-face {
         font-family: "Linearicons-Free";
-        src: url("./web_modules/mv-linear-icons/fonts/Linearicons-Free.eot?w118d");
-        src: url("./web_modules/mv-linear-icons/fonts/Linearicons-Free.eot?#iefixw118d")
+        src: url("./node_modules/@meveo-org/mv-linear-icons/fonts/Linearicons-Free.eot?w118d");
+        src: url("./node_modules/@meveo-org/mv-linear-icons/fonts/Linearicons-Free.eot?#iefixw118d")
             format("embedded-opentype"),
-          url("./web_modules/mv-linear-icons/fonts/Linearicons-Free.woff2?w118d")
+          url("./node_modules/@meveo-org/mv-linear-icons/fonts/Linearicons-Free.woff2?w118d")
             format("woff2"),
-          url("./web_modules/mv-linear-icons/fonts/Linearicons-Free.woff?w118d")
+          url("./node_modules/@meveo-org/mv-linear-icons/fonts/Linearicons-Free.woff?w118d")
             format("woff"),
-          url("./web_modules/mv-linear-icons/fonts/Linearicons-Free.ttf?w118d")
+          url("./node_modules/@meveo-org/mv-linear-icons/fonts/Linearicons-Free.ttf?w118d")
             format("truetype"),
-          url("./web_modules/mv-linear-icons/fonts/Linearicons-Free.svg?w118d#Linearicons-Free")
+          url("./node_modules/@meveo-org/mv-linear-icons/fonts/Linearicons-Free.svg?w118d#Linearicons-Free")
             format("svg");
         font-weight: normal;
         font-style: normal;
@@ -158,16 +159,16 @@
         font-style: normal;
         font-weight: normal;
         font-display: auto;
-        src: url("./web_modules/mv-font-awesome/fonts/fa-brands-400.eot");
-        src: url("./web_modules/mv-font-awesome/fonts/fa-brands-400.eot?#iefix")
+        src: url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-brands-400.eot");
+        src: url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-brands-400.eot?#iefix")
             format("embedded-opentype"),
-          url("./web_modules/mv-font-awesome/fonts/fa-brands-400.woff2")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-brands-400.woff2")
             format("woff2"),
-          url("./web_modules/mv-font-awesome/fonts/fa-brands-400.woff")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-brands-400.woff")
             format("woff"),
-          url("./web_modules/mv-font-awesome/fonts/fa-brands-400.ttf")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-brands-400.ttf")
             format("truetype"),
-          url("./web_modules/mv-font-awesome/fonts/fa-brands-400.svg#fontawesome")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-brands-400.svg#fontawesome")
             format("svg");
       }
 
@@ -177,16 +178,16 @@
         font-style: normal;
         font-weight: 400;
         font-display: auto;
-        src: url("./web_modules/mv-font-awesome/fonts/fa-regular-400.eot");
-        src: url("./web_modules/mv-font-awesome/fonts/fa-regular-400.eot?#iefix")
+        src: url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-regular-400.eot");
+        src: url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-regular-400.eot?#iefix")
             format("embedded-opentype"),
-          url("./web_modules/mv-font-awesome/fonts/fa-regular-400.woff2")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-regular-400.woff2")
             format("woff2"),
-          url("./web_modules/mv-font-awesome/fonts/fa-regular-400.woff")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-regular-400.woff")
             format("woff"),
-          url("./web_modules/mv-font-awesome/fonts/fa-regular-400.ttf")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-regular-400.ttf")
             format("truetype"),
-          url("./web_modules/mv-font-awesome/fonts/fa-regular-400.svg#fontawesome")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-regular-400.svg#fontawesome")
             format("svg");
       }
 
@@ -196,16 +197,16 @@
         font-style: normal;
         font-weight: 900;
         font-display: auto;
-        src: url("./web_modules/mv-font-awesome/fonts/fa-solid-900.eot");
-        src: url("./web_modules/mv-font-awesome/fonts/fa-solid-900.eot?#iefix")
+        src: url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-solid-900.eot");
+        src: url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-solid-900.eot?#iefix")
             format("embedded-opentype"),
-          url("./web_modules/mv-font-awesome/fonts/fa-solid-900.woff2")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-solid-900.woff2")
             format("woff2"),
-          url("./web_modules/mv-font-awesome/fonts/fa-solid-900.woff")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-solid-900.woff")
             format("woff"),
-          url("./web_modules/mv-font-awesome/fonts/fa-solid-900.ttf")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-solid-900.ttf")
             format("truetype"),
-          url("./web_modules/mv-font-awesome/fonts/fa-solid-900.svg#fontawesome")
+          url("./node_modules/@meveo-org/mv-font-awesome/fonts/fa-solid-900.svg#fontawesome")
             format("svg");
       }
 

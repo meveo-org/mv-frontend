@@ -1,37 +1,14 @@
-import { LitElement, html, css } from "lit-element";
-import "mv-breadcrumbs-demo";
-import "mv-button-demo";
-import "mv-calendar-demo";
-import "mv-chart-demo";
-import "mv-checkbox-demo";
-import "mv-click-away-demo";
-import "mv-container-demo";
-import "mv-dialog-demo";
-import "mv-dropdown-demo";
-import "mv-font-awesome-demo";
-import "mv-footer-demo";
-import "mv-form-demo";
-import "mv-header-demo";
-import "mv-input-demo";
-import "mv-linear-icons-demo";
-import "mv-listbox-demo";
-import "mv-main-demo";
-import "mv-maps-demo";
-import "mv-menu-demo";
-import "mv-menu-panel";
-import "mv-pagination-demo";
-import "mv-progressbar-demo";
-import "mv-radio-demo";
-import "mv-select-demo";
-import "mv-slider-demo";
-import "mv-spinner-demo";
-import "mv-tab-demo";
-import "mv-table-demo";
-import "mv-tags-demo";
-import "mv-textarea-demo";
-import "mv-toast-demo";
-import "mv-toggle-demo";
-import "mv-tooltip-demo";
+import { LitElement, html, css } from "./node_modules/@meveo-org/mv-dependencies/lit-element.js";
+
+
+
+
+
+
+
+
+
+
 
 export class MvFrontendDemo extends LitElement {
   static get properties() {
