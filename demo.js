@@ -2,39 +2,39 @@ import { LitElement, html, css } from "lit"
 
 
 
-import "./node_modules/@meveo-org/mv-breadcrumbs/demo.js";
-import "./node_modules/@meveo-org/mv-button/demo.js";
-import "./node_modules/@meveo-org/mv-calendar/demo.js";
-import "./node_modules/@meveo-org/mv-chart/demo.js";
-import "./node_modules/@meveo-org/mv-checkbox/demo.js";
-import "./node_modules/@meveo-org/mv-click-away/demo.js";
-import "./node_modules/@meveo-org/mv-container/demo.js";
-import "./node_modules/@meveo-org/mv-dialog/demo.js";
-import "./node_modules/@meveo-org/mv-dropdown/demo.js";
-import "./node_modules/@meveo-org/mv-font-awesome/demo.js";
-import "./node_modules/@meveo-org/mv-footer/demo.js";
-//import "./node_modules/@meveo-org/mv-form/demo.js";
-import "./node_modules/@meveo-org/mv-header/demo.js";
-import "./node_modules/@meveo-org/mv-input/demo.js";
-import "./node_modules/@meveo-org/mv-linear-icons/demo.js";
-import "./node_modules/@meveo-org/mv-listbox/demo.js";
-import "./node_modules/@meveo-org/mv-main/demo.js";
-import "./node_modules/@meveo-org/mv-maps/demo.js";
-import "./node_modules/@meveo-org/mv-menu/demo.js";
-import "./node_modules/@meveo-org/mv-menu-panel/demo.js";
-import "./node_modules/@meveo-org/mv-pagination/demo.js";
-import "./node_modules/@meveo-org/mv-progress-bar/demo.js";
-import "./node_modules/@meveo-org/mv-radio/demo.js";
-import "./node_modules/@meveo-org/mv-select/demo.js";
-import "./node_modules/@meveo-org/mv-slider/demo.js";
-import "./node_modules/@meveo-org/mv-spinner/demo.js";
-import "./node_modules/@meveo-org/mv-tab/demo.js";
-//import "./node_modules/@meveo-org/mv-table/demo.js";
-import "./node_modules/@meveo-org/mv-tags/demo.js";
-import "./node_modules/@meveo-org/mv-textarea/demo.js";
-import "./node_modules/@meveo-org/mv-toast/demo.js";
-import "./node_modules/@meveo-org/mv-toggle/demo.js";
-import "./node_modules/@meveo-org/mv-tooltip/demo.js";
+import "@meveo-org/mv-breadcrumbs-demo";
+import "@meveo-org/mv-button-demo";
+import "@meveo-org/mv-calendar-demo";
+import "@meveo-org/mv-chart-demo";
+import "@meveo-org/mv-checkbox-demo";
+import "@meveo-org/mv-click-away-demo";
+import "@meveo-org/mv-container-demo";
+import "@meveo-org/mv-dialog-demo";
+import "@meveo-org/mv-dropdown-demo";
+import "@meveo-org/mv-font-awesome-demo";
+import "@meveo-org/mv-footer-demo";
+//import "@meveo-org/mv-form-demo";
+import "@meveo-org/mv-header-demo";
+import "@meveo-org/mv-input-demo";
+import "@meveo-org/mv-linear-icons-demo";
+import "@meveo-org/mv-listbox-demo";
+import "@meveo-org/mv-main-demo";
+import "@meveo-org/mv-maps-demo";
+import "@meveo-org/mv-menu-demo";
+import "@meveo-org/mv-menu-panel-demo";
+import "@meveo-org/mv-pagination-demo";
+import "@meveo-org/mv-progress-bar-demo";
+import "@meveo-org/mv-radio-demo";
+import "@meveo-org/mv-select-demo";
+import "@meveo-org/mv-slider-demo";
+import "@meveo-org/mv-spinner-demo";
+import "@meveo-org/mv-tab-demo";
+//import "@meveo-org/mv-table-demo";
+import "@meveo-org/mv-tags-demo";
+import "@meveo-org/mv-textarea-demo";
+import "@meveo-org/mv-toast-demo";
+import "@meveo-org/mv-toggle-demo";
+import "@meveo-org/mv-tooltip-demo";
 
 
 
