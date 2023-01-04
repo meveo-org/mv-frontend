@@ -1,7 +1,4 @@
-import { LitElement, html, css } from "lit";
-
-
-
+import { LitElement, html, css } from "lit"
 
 import "./node_modules/@meveo-org/mv-breadcrumbs/demo.js";
 import "./node_modules/@meveo-org/mv-button/demo.js";
@@ -14,7 +11,7 @@ import "./node_modules/@meveo-org/mv-dialog/demo.js";
 import "./node_modules/@meveo-org/mv-dropdown/demo.js";
 import "./node_modules/@meveo-org/mv-font-awesome/demo.js";
 import "./node_modules/@meveo-org/mv-footer/demo.js";
-import "./node_modules/@meveo-org/mv-form/demo.js";
+//import "./node_modules/@meveo-org/mv-form/demo.js";
 import "./node_modules/@meveo-org/mv-header/demo.js";
 import "./node_modules/@meveo-org/mv-input/demo.js";
 import "./node_modules/@meveo-org/mv-linear-icons/demo.js";
