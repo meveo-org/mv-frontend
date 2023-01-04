@@ -1,42 +1,38 @@
 import { LitElement, html, css } from "lit"
 
-
-
-import "@meveo-org/mv-breadcrumbs-demo";
-import "@meveo-org/mv-button-demo";
-import "@meveo-org/mv-calendar-demo";
-import "@meveo-org/mv-chart-demo";
-import "@meveo-org/mv-checkbox-demo";
-import "@meveo-org/mv-click-away-demo";
-import "@meveo-org/mv-container-demo";
-import "@meveo-org/mv-dialog-demo";
-import "@meveo-org/mv-dropdown-demo";
-import "@meveo-org/mv-font-awesome-demo";
-import "@meveo-org/mv-footer-demo";
-//import "@meveo-org/mv-form-demo";
-import "@meveo-org/mv-header-demo";
-import "@meveo-org/mv-input-demo";
-import "@meveo-org/mv-linear-icons-demo";
-import "@meveo-org/mv-listbox-demo";
-import "@meveo-org/mv-main-demo";
-import "@meveo-org/mv-maps-demo";
-import "@meveo-org/mv-menu-demo";
-import "@meveo-org/mv-menu-panel-demo";
-import "@meveo-org/mv-pagination-demo";
-import "@meveo-org/mv-progress-bar-demo";
-import "@meveo-org/mv-radio-demo";
-import "@meveo-org/mv-select-demo";
-import "@meveo-org/mv-slider-demo";
-import "@meveo-org/mv-spinner-demo";
-import "@meveo-org/mv-tab-demo";
-//import "@meveo-org/mv-table-demo";
-import "@meveo-org/mv-tags-demo";
-import "@meveo-org/mv-textarea-demo";
-import "@meveo-org/mv-toast-demo";
-import "@meveo-org/mv-toggle-demo";
-import "@meveo-org/mv-tooltip-demo";
-
-
+import "mv-breadcrumbs-demo";
+import "mv-button-demo";
+import "mv-calendar-demo";
+import "mv-chart-demo";
+import "mv-checkbox-demo";
+import "mv-click-away-demo";
+import "mv-container-demo";
+import "mv-dialog-demo";
+import "mv-dropdown-demo";
+import "mv-font-awesome-demo";
+import "mv-footer-demo";
+//import "mv-form-demo";
+import "mv-header-demo";
+import "mv-input-demo";
+import "mv-linear-icons-demo";
+import "mv-listbox-demo";
+import "mv-main-demo";
+import "mv-maps-demo";
+import "mv-menu-demo";
+import "mv-menu-panel-demo";
+import "mv-pagination-demo";
+import "mv-progress-bar-demo";
+import "mv-radio-demo";
+import "mv-select-demo";
+import "mv-slider-demo";
+import "mv-spinner-demo";
+import "mv-tab-demo";
+//import "mv-table-demo";
+import "mv-tags-demo";
+import "mv-textarea-demo";
+import "mv-toast-demo";
+import "mv-toggle-demo";
+import "mv-tooltip-demo";
 
 
 
