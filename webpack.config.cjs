@@ -7,7 +7,9 @@ module.exports = {
       path: path.resolve(__dirname, 'docs'),
       publicPath: 'docs',
       filename: 'index.js',
-
+    },
+    stats:{
+      errorDetails: true
     },
     devServer: {
       open: ['/index.html'],
@@ -16,5 +18,6 @@ module.exports = {
       },
       compress: true,
       port: 9000,
+     
     }
   };
