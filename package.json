@@ -1,3 +1,4 @@
+
 {
   "dependencies": {
     "@meveo-org/mv-breadcrumbs": "^1.0.0",
@@ -10,6 +11,7 @@
     "@meveo-org/mv-dependencies": "^1.0.0",
     "@meveo-org/mv-dialog": "^1.0.0",
     "@meveo-org/mv-dropdown": "^1.0.0",
+    "@meveo-org/mv-element": "^1.0.0",
     "@meveo-org/mv-font-awesome": "^1.0.0",
     "@meveo-org/mv-footer": "^1.0.0",
     "@meveo-org/mv-form": "^1.0.0",
@@ -28,6 +30,7 @@
     "@meveo-org/mv-select": "^1.0.0",
     "@meveo-org/mv-slider": "^1.0.0",
     "@meveo-org/mv-spinner": "^1.0.0",
+    "@meveo-org/mv-store": "^1.0.0",
     "@meveo-org/mv-tab": "^1.0.0",
     "@meveo-org/mv-table": "^1.0.0",
     "@meveo-org/mv-tags": "^1.0.0",

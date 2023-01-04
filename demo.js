@@ -1,6 +1,8 @@
-import { LitElement, html, css } from "./node_modules/@meveo-org/mv-dependencies/lit-element.js";
-/*
-import "./node_modules/@meveo-org/mv-breadcrumbs/mv-breadcrumbs.js"
+import { LitElement, html, css } from "lit";
+
+
+
+
 import "./node_modules/@meveo-org/mv-breadcrumbs/demo.js";
 import "./node_modules/@meveo-org/mv-button/demo.js";
 import "./node_modules/@meveo-org/mv-calendar/demo.js";
@@ -22,7 +24,7 @@ import "./node_modules/@meveo-org/mv-maps/demo.js";
 import "./node_modules/@meveo-org/mv-menu/demo.js";
 import "./node_modules/@meveo-org/mv-menu-panel/demo.js";
 import "./node_modules/@meveo-org/mv-pagination/demo.js";
-//import "./node_modules/@meveo-org/mv-progressbar/demo.js";
+import "./node_modules/@meveo-org/mv-progress-bar/demo.js";
 import "./node_modules/@meveo-org/mv-radio/demo.js";
 import "./node_modules/@meveo-org/mv-select/demo.js";
 import "./node_modules/@meveo-org/mv-slider/demo.js";
@@ -34,8 +36,6 @@ import "./node_modules/@meveo-org/mv-textarea/demo.js";
 import "./node_modules/@meveo-org/mv-toast/demo.js";
 import "./node_modules/@meveo-org/mv-toggle/demo.js";
 import "./node_modules/@meveo-org/mv-tooltip/demo.js";
-*/
-
 
 
 
@@ -136,6 +136,10 @@ export class MvFrontendDemo extends LitElement {
     const demos = Object.keys(this.demos);
     const count = demos.length;
     return html`
+
+
+
+
       <mv-main>
         <mv-header slot="header">
           <mv-header item><h3>Meveo Frontend Kitchen Sink Demo</h3></mv-header>

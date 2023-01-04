@@ -7,6 +7,7 @@ module.exports = {
       path: path.resolve(__dirname, 'docs'),
       publicPath: 'docs',
       filename: 'index.js',
+
     },
     devServer: {
       open: ['/index.html'],
