@@ -3,7 +3,7 @@ import { LitElement, html, css } from "lit"
 import "@meveo-org/mv-breadcrumbs";
 import "@meveo-org/mv-button";
 import "@meveo-org/mv-calendar";
-import "@meveo-org/mv-chart";
+//import "@meveo-org/mv-chart";
 import "@meveo-org/mv-checkbox";
 import "@meveo-org/mv-click-away";
 import "@meveo-org/mv-container";

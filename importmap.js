@@ -101,7 +101,7 @@
       "mv-tab-demo": "./node_modules/@meveo-org/mv-tab/demo.js",
 
       "mv-table": "./node_modules/@meveo-org/mv-table/mv-table.js",
-      "mv-table-demo": "./node_modules/@meveo-org/mv-table/demo.js",
+      "mv-table-demo": "./node_modules/@meveo-org/mv-table/docs/demo-mv-table.js",
 
       "mv-toast": "./node_modules/@meveo-org/mv-toast/mv-toast.js",
       "mv-toast-demo": "./node_modules/@meveo-org/mv-toast/demo.js",
@@ -145,7 +145,7 @@
       "@meveo-org/mv-slider": "./node_modules/@meveo-org/mv-slider/demo.js",
       "@meveo-org/mv-spinner": "./node_modules/@meveo-org/mv-spinner/demo.js",
       "@meveo-org/mv-tab": "./node_modules/@meveo-org/mv-tab/demo.js",
-      "@meveo-org/mv-table": "./node_modules/@meveo-org/mv-table/demo.js",
+      "@meveo-org/mv-table": "./node_modules/@meveo-org/mv-table/docs/demo-mv-table.js",
       "@meveo-org/mv-toast": "./node_modules/@meveo-org/mv-toast/demo.js",
       "@meveo-org/mv-tags": "./node_modules/@meveo-org/mv-tags/demo.js",
       "@meveo-org/mv-textarea": "./node_modules/@meveo-org/mv-textarea/demo.js",
