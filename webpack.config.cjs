@@ -21,7 +21,7 @@ module.exports = {
       errorDetails: true
     },
     devServer: {
-      open: ['./index.html'],
+      open: ['./docs/index.html'],
       static: {
         directory: path.join(__dirname, ''),
       },
