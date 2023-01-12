@@ -3,7 +3,7 @@ import { LitElement, html, css } from "lit"
 import "@meveo-org/mv-breadcrumbs";
 import "@meveo-org/mv-button";
 import "@meveo-org/mv-calendar";
-//import "@meveo-org/mv-chart";
+import "@meveo-org/mv-chart";
 import "@meveo-org/mv-checkbox";
 import "@meveo-org/mv-click-away";
 import "@meveo-org/mv-container";
@@ -11,7 +11,7 @@ import "@meveo-org/mv-dialog";
 import "@meveo-org/mv-dropdown";
 import "@meveo-org/mv-font-awesome";
 import "@meveo-org/mv-footer";
-//import "@meveo-org/mv-form";
+import "@meveo-org/mv-form";
 import "@meveo-org/mv-header";
 import "@meveo-org/mv-input";
 import "@meveo-org/mv-linear-icons";

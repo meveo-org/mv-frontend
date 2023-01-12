@@ -129,7 +129,7 @@
       "@meveo-org/mv-dialog": "./node_modules/@meveo-org/mv-dialog/demo.js",
       "@meveo-org/mv-dropdown": "./node_modules/@meveo-org/mv-dropdown/demo.js",
       "@meveo-org/mv-font-awesome": "./node_modules/@meveo-org/mv-font-awesome/demo.js",
-      "@meveo-org/mv-form": "./node_modules/@meveo-org/mv-form/demo.js",
+      "@meveo-org/mv-form": "./node_modules/@meveo-org/mv-form/docs/index.js",
       "@meveo-org/mv-header": "./node_modules/@meveo-org/mv-header/demo.js",
       "@meveo-org/mv-input": "./node_modules/@meveo-org/mv-input/demo.js",
       "@meveo-org/mv-linear-icons": "./node_modules/@meveo-org/mv-linear-icons/demo.js",
