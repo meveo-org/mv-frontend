@@ -2,10 +2,9 @@
     "imports": {
 
 
-      "jsonata": "./node_modules/@meveo-org/mv-dependencies/jsonata.min.js",
 
       
-      "ajv": "./node_modules/@meveo-org/mv-dependencies/ajv/ajv.min.js",
+
       "chartjs": "./node_modules/@meveo-org/mv-chart/lib/chart.min.js",
       "chartjs-plugin-datalabels": "./node_modules/@meveo-org/mv-chart/lib/chartjs-plugin-datalabels.min.js",
 
@@ -16,8 +15,9 @@
       "@meveo-org" : "./node_modules/@meveo-org",
 
 
-      "mv-element": "./node_modules/@meveo-org/mv-modules/mv-element.js",
-      "mv-store": "./node_modules/@meveo-org/mv-modules/mv-store.js",
+      "mv-element": "./node_modules/@meveo-org/mv-element/mv-element.js",
+      "mv-store": "./node_modules/@meveo-org/mv-store/mv-store.js",
+      "@meveo-org/mv-store": "./node_modules/@meveo-org/mv-store/mv-store.js",
 
       "mv-breadcrumbs": "./node_modules/@meveo-org/mv-breadcrumbs/mv-breadcrumbs.js",
       "mv-breadcrumbs-demo": "./node_modules/@meveo-org/mv-breadcrumbs/demo.js",
@@ -129,7 +129,7 @@
       "@meveo-org/mv-dialog": "./node_modules/@meveo-org/mv-dialog/demo.js",
       "@meveo-org/mv-dropdown": "./node_modules/@meveo-org/mv-dropdown/demo.js",
       "@meveo-org/mv-font-awesome": "./node_modules/@meveo-org/mv-font-awesome/demo.js",
-      "@meveo-org/mv-form": "./node_modules/@meveo-org/mv-form/docs/index.js",
+      "@meveo-org/mv-form": "./node_modules/@meveo-org/mv-form/demo.js",
       "@meveo-org/mv-header": "./node_modules/@meveo-org/mv-header/demo.js",
       "@meveo-org/mv-input": "./node_modules/@meveo-org/mv-input/demo.js",
       "@meveo-org/mv-linear-icons": "./node_modules/@meveo-org/mv-linear-icons/demo.js",
@@ -153,9 +153,11 @@
       "@meveo-org/mv-tooltip": "./node_modules/@meveo-org/mv-tooltip/demo.js",
       "@meveo-org/mv-button" : "./node_modules/@meveo-org/mv-button/demo.js",
       "@meveo-org/mv-element" : "./node_modules/@meveo-org/mv-element/mv-element.js",
-      "@meveo-org/mv-store" : "./node_modules/@meveo-org/mv-store/mv-store.js"
 
 
+      "ajv": "./node_modules/@meveo-org/mv-dependencies/ajv/ajv.min.js",
+      "Ajv": "./node_modules/@meveo-org/mv-dependencies/ajv/ajv.min.js",
+      "jsonata": "./node_modules/@meveo-org/mv-dependencies/jsonata.js"
 
     }
   }
