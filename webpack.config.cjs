@@ -16,10 +16,10 @@ module.exports = {
     output: {
       path: path.resolve(__dirname, './docs'),
       filename: 'index.js',
+      sourceMapFilename: "[name].js.map",
     },
-    stats:{
-      errorDetails: true
-    },
+    devtool: "source-map",
+    stats:"verbose",
     devServer: {
       open: ['./docs/index.html'],
       static: {
