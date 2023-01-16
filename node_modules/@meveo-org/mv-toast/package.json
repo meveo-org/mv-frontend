@@ -1,0 +1,22 @@
+{
+  "name": "@meveo-org/mv-toast",
+  "version": "1.0.0",
+  "description": "MvToast is a Meveo component (based on lit-element) that renders a notification container.",
+  "main": "mv-toast.js",
+  "scripts": {
+    "serve": "es-dev-server --node-resolve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meveo-org/mv-toast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meveo-org/mv-toast/issues"
+  },
+  "homepage": "https://github.com/meveo-org/mv-toast#readme",
+  "devDependencies": {
+    "es-dev-server": "^1.46.1"
+  }
+}
