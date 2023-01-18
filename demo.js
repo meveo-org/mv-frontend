@@ -20,14 +20,13 @@ import "@meveo-org/mv-main/demo.js";
 import "@meveo-org/mv-maps/demo.js";
 import "@meveo-org/mv-menu/demo.js";
 import "@meveo-org/mv-menu-panel/demo.js";
-import "@meveo-org/mv-pagination/demo.js";
 import "@meveo-org/mv-progress-bar/demo.js";
 import "@meveo-org/mv-radio/demo.js";
 import "@meveo-org/mv-select/demo.js";
 import "@meveo-org/mv-slider/demo.js";
 import "@meveo-org/mv-spinner/demo.js";
 import "@meveo-org/mv-tab/demo.js";
-//import "@meveo-org/mv-table/demo.js";
+import "@meveo-org/mv-table/demo/demo.js";
 import "@meveo-org/mv-tags/demo.js";
 import "@meveo-org/mv-textarea/demo.js";
 import "@meveo-org/mv-toast/demo.js";
@@ -112,7 +111,6 @@ export class MvFrontendDemo extends LitElement {
       "mv-main": html`<mv-main-demo></mv-main-demo>`,
       "mv-maps": html`<mv-maps-demo></mv-maps-demo>`,
       "mv-menu": html`<mv-menu-demo></mv-menu-demo>`,
-      "mv-pagination": html`<mv-pagination-demo></mv-pagination-demo>`,
       "mv-progress-bar": html`<mv-progressbar-demo></mv-progressbar-demo>`,
       "mv-radio": html`<mv-radio-demo></mv-radio-demo>`,
       "mv-select": html`<mv-select-demo></mv-select-demo>`,
