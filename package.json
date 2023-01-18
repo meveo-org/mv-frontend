@@ -42,13 +42,15 @@
   },
   "scripts": {
     "dev": "webpack serve -c webpack.config.cjs --mode=development",
-    "build": "webpack ./demo.js --output-filename=index.js --mode=production"
+    "build": "webpack -c webpack.config.cjs --mode=production"
   },
   "devDependencies": {
     "eslint": "^8.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "raw-loader": "^4.0.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
