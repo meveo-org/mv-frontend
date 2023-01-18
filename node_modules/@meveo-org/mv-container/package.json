@@ -1,0 +1,27 @@
+{
+  "name": "@meveo-org/mv-container",
+  "version": "1.0.0",
+  "description": "MvContainer is a Meveo container component (based on lit-element) that renders a content container.",
+  "main": "mv-container.js",
+  "module": "mv-container.js",
+  "type": "module",
+  "scripts": {
+    "serve": "es-dev-server --node-resolve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meveo-org/mv-container.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meveo-org/mv-container/issues"
+  },
+  "homepage": "https://github.com/meveo-org/mv-container#readme",
+  "dependencies": {
+    "lit-element": "^3.0.2"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.46.1"
+  }
+}

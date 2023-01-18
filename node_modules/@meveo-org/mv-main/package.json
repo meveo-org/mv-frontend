@@ -1,0 +1,22 @@
+{
+  "name": "@meveo-org/mv-main",
+  "version": "1.0.0",
+  "description": "MvMain is a Meveo layout component (based on lit-element) that provides standard layout for a page.",
+  "main": "mv-main.js",
+  "scripts": {
+    "serve": "es-dev-server --node-resolve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meveo-org/mv-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meveo-org/mv-main/issues"
+  },
+  "homepage": "https://github.com/meveo-org/mv-main#readme",
+  "devDependencies": {
+    "es-dev-server": "^1.46.1"
+  }
+}

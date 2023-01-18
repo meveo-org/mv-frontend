@@ -1,0 +1,22 @@
+{
+  "name": "@meveo-org/mv-tab",
+  "version": "1.0.0",
+  "description": "MvTab is a Meveo menu component (based on lit-element) that provides a tab with content.",
+  "main": "mv-tab.js",
+  "scripts": {
+    "serve": "es-dev-server --node-resolve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meveo-org/mv-tab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meveo-org/mv-tab/issues"
+  },
+  "homepage": "https://github.com/meveo-org/mv-tab#readme",
+  "devDependencies": {
+    "es-dev-server": "^1.46.1"
+  }
+}

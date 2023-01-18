@@ -1,0 +1,20 @@
+{
+  "name": "@meveo-org/mv-theme",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meveo-org/mv-theme.git"
+  },
+  "files": [
+    "/css/meveo-theme.css"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meveo-org/mv-theme/issues"
+  },
+  "homepage": "https://github.com/meveo-org/mv-theme#readme"
+}
